@@ -2,22 +2,37 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2F2D2B;
+    background-image: url("header.png");
     padding: 30px;
 }
 
 header .logo{
     color: #FFFFFF;
-    font-size: 48px;
+    font-size: 40px;
     font-family: Verdana, sans-serif;
     text-transform: uppercase; 
 }
 
+header ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
+header li{
+    margin-left: 20px;
+}
 
-
-
-
+header li a{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none; 
+    display: block;
+    padding: 12px;
+}
 
 footer{
     /*float: none;*/
