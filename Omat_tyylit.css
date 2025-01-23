@@ -1,13 +1,15 @@
 header{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: #2F2D2B;
+    padding: 30px;
 }
 
 header .logo{
     color: #FFFFFF;
     font-size: 48px;
-    font-family: Italianno, sans-serif;
+    font-family: Verdana, sans-serif;
     text-transform: uppercase; 
 }
 
