@@ -1,7 +1,15 @@
 header{
-    
+    display: flex;
+    align-items: center;
+    background-color: #2F2D2B;
 }
 
+header .logo{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-family: Italianno, sans-serif;
+    text-transform: uppercase; 
+}
 
 
 
