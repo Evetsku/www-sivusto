@@ -1,0 +1,13 @@
+footer{
+    /*float: none;*/
+    /*clear: both;*/
+    /*margin-top: 30px;*/
+    /*margin-bottom: 30px;*/
+    background-color: #232120;
+    color: #FFFFFF;
+    padding: 30px;
+    /*text-align: center;*/
+    font-size: 1,5em;
+    /*margin-top: 400px;*/
+    font-family: Verdana, sans-serif;
+}
