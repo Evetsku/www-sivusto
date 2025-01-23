@@ -3,7 +3,19 @@ header{
     justify-content: space-between;
     align-items: center;
     background-image: url("Kuvat/header.png");
-    padding: 30px;
+    background-position: center;
+    background-size: 1214px;
+    background-repeat: no-repeat;
+    height: 433px;
+}
+
+.header-container{
+    padding: 20px 40px; 
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
 }
 
 header .logo{
