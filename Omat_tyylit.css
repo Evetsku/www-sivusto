@@ -60,6 +60,12 @@ nav li a{
     padding: 12px;
 }
 
+.opening-hours {
+    background-color: #2F2D2B;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
 footer{
     /*float: none;*/
     /*clear: both;*/
