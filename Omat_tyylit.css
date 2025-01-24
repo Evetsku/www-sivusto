@@ -1,3 +1,7 @@
+body {
+    background-color: #7D080A;
+}
+
 header{
     display: flex;
     flex-direction: column;
@@ -64,6 +68,32 @@ nav li a{
     background-color: #2F2D2B;
     color: #FFFFFF;
     padding: 10px;
+}
+
+.hero .container {
+    justify-content: center;
+    align-items: center;
+}
+
+.info-boxi {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: verdana;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: verdana;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: verdana;
 }
 
 footer{
