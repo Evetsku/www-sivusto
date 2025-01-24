@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("Kuvat/header.png");
+    padding: 30px;
+}
+
+header .logo{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase; 
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    margin-left: 20px;
+}
+
+header li a{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none; 
+    display: block;
+    padding: 12px;
+}
+
+footer{
+    /*float: none;*/
+    /*clear: both;*/
+    /*margin-top: 30px;*/
+    /*margin-bottom: 30px;*/
+    background-color: #232120;
+    color: #FFFFFF;
+    padding: 30px;
+    /*text-align: center;*/
+    font-size: 1,5em;
+    /*margin-top: 400px;*/
+    font-family: Verdana, sans-serif;
+}
