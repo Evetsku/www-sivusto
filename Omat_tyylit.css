@@ -2,6 +2,14 @@ body {
     background-color: #7D080A;
 }
 
+.menu {
+    background-image: url("Kuvat/menutausta.png");
+    background-position: center;
+    background-size: 1214px;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
 header{
     display: flex;
     flex-direction: column;
@@ -94,6 +102,18 @@ h2 {
 p {
     color: #FFFFFF;
     font-family: verdana;
+}
+
+section{
+
+}
+
+.menu1{
+
+}
+
+.menu1{
+    
 }
 
 footer{
