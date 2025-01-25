@@ -5,9 +5,11 @@ body {
 .menu {
     background-image: url("Kuvat/menutausta.png");
     background-position: center;
-    background-size: 1214px;
+    background-size: max-width;
     background-repeat: no-repeat;
     height: auto;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 header{
@@ -109,11 +111,21 @@ section{
 }
 
 .menu1{
-
+    background-color: rgba(47, 45, 43, 0.75);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 50px;
+    color: #FFFFFF;
+    text-align: left;
 }
 
-.menu1{
-    
+.menu2{
+    background-color: rgba(47, 45, 43, 0.75);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 50px;
+    color: #FFFFFF;
+    text-align: left;
 }
 
 footer{
@@ -128,4 +140,5 @@ footer{
     font-size: 1,5em;
     /*margin-top: 400px;*/
     font-family: Verdana, sans-serif;
+    
 }
