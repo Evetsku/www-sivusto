@@ -1,5 +1,14 @@
 body {
     background-color: #7D080A;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
 }
 
 .menu {
@@ -78,7 +87,8 @@ nav li a{
 .opening-hours {
     background-color: #2F2D2B;
     color: #FFFFFF;
-    padding: 10px;
+    padding: 15px;
+    margin-top: 0;
 }
 
 .hero .container {
@@ -90,25 +100,56 @@ nav li a{
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.img-fluid {
+    display: block;
+    min-height: 400px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+.info-box {
+    background-color: rgba(47, 45, 43, 0.75);
+    color: #FFFFFF; 
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.row.align-items-center {
+    display: flex;
+    max-width: 100%;
+    padding-bottom: 0;
+}
+
+.col-md-6 {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
 }
 
 h1 {
     color: #FFFFFF;
-    font-family: verdana;
+    font-family: verdana, sans-serif;
 }
 
 h2 {
     color: #FFFFFF;
-    font-family: verdana;
+    font-family: verdana, sans-serif;
 }
 
 p {
     color: #FFFFFF;
-    font-family: verdana;
-}
-
-section{
-
+    font-family: verdana, sans-serif;
 }
 
 .menu1{
