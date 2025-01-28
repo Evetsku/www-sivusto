@@ -6,7 +6,6 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 
     background-image: url("Kuvat/header.png");
     background-position: center;
@@ -17,16 +16,6 @@ body {
     
 }
 
-.container {
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-}
-
-.row {
-    margin: 0;
-    padding: 0;
-}
 
 .menu {
     background-image: url("Kuvat/menutausta.png");
@@ -82,7 +71,7 @@ nav ul{
     padding: 0;
     float: right;
     margin-right: 10%;
-    margin-bottom: 50%;
+    margin-bottom: 25%;
     position: relative;
     z-index: 2;
 }
@@ -101,11 +90,26 @@ nav li a{
     padding: 12px;
 }
 
+.container {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
 .opening-hours {
     background-color: #2F2D2B;
     color: #FFFFFF;
     padding: 15px;
-    margin-top: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .hero .container {
@@ -124,8 +128,8 @@ nav li a{
     display: block;
     min-height: 400px;
     object-fit: cover;
+    height: 50px;
     width: 100%;
-    height: 100%;
     max-width: 100%;
 }
 
@@ -141,16 +145,17 @@ nav li a{
 }
 
 .row.align-items-center {
-    display: flex;
+    /* display: flex; */
     max-width: 100%;
     padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .col-md-6 {
     padding: 0;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* flex-direction: column; */
+    /* justify-content: center; */
     max-width: 100%;
 }
 
@@ -195,9 +200,9 @@ footer{
     background-color: #232120;
     color: #FFFFFF;
     padding: 30px;
+    
     /*text-align: center;*/
     font-size: 1,5em;
     /*margin-top: 400px;*/
     font-family: Verdana, sans-serif;
-    
 }
