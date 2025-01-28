@@ -3,12 +3,29 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-image: url("Kuvat/header.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 433px;
+    position: relative;
+    
 }
 
 .container {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     max-width: 100%;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
 }
 
 .menu {
@@ -21,7 +38,7 @@ body {
     color: #FFFFFF;
 }
 
-header{
+/* header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -31,7 +48,7 @@ header{
     background-repeat: no-repeat;
     height: 433px;
     position: relative;
-}
+} */
 
 
 .opacity-box {
@@ -39,8 +56,8 @@ header{
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 90%;
-    max-width: 1214px;
+    width: 100%;
+    max-width: 100%;
     background-color: rgba(47, 45, 43, 0.75);
     background-size: 1214px;
     height: 186px;
