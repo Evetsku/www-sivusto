@@ -13,8 +13,8 @@ body {
 
 .menu {
     background-image: url("Kuvat/menutausta.png");
-    background-position: center;
-    background-size: max-width;
+    /*background-position: center;*/
+    background-size: cover;
     background-repeat: no-repeat;
     height: auto;
     text-align: center;
