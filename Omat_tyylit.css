@@ -46,7 +46,6 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
     display: flex;
     position: static;
     margin: 0;
@@ -244,4 +243,21 @@ section{
 .menu {
     font-size: 1,5em;
 }
+
+.yhteystiedot-osio {
+    padding: 40px;
+    background-color: rgba(47, 45, 43, 0.85);
+    color: #FFFFFF;
+    
+    
+}
+
+.yhteystiedot-osio h2 {
+    margin-bottom: 30px;
+}
+
+.yhteystiedot-osio p {
+    margin-bottom: 10px;
+}
+
 
