@@ -35,10 +35,9 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100%;
     color: #FFFFFF;
     display: flex;
-    position: static;
+    position: relative;
     margin: 0;
 }
 
