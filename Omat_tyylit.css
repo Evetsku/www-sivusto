@@ -99,20 +99,15 @@ nav li a{
     max-width: 100%;
 }
 
-.row {
-    margin: 0;
-    padding: 0;
-    width: 100%
-}
-
 .opening-hours {
     background-color: #2F2D2B;
     color: #FFFFFF;
     padding: 15px;
-    margin: 0;
+    margin: 0 !important;
     width: 100%;
     text-align: center;
     box-sizing: border-box;
+    display: inline-block;
 }
 
 .hero .container {
@@ -150,8 +145,13 @@ nav li a{
 .row.align-items-center {
     /* display: flex; */
     max-width: 100%;
-    padding-bottom: 0;
-    margin-bottom: 0;
+    padding-bottom: 0 ;
+    margin-bottom: 0 ;
+}
+
+#Etusivu {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .col-md-6 {
@@ -200,7 +200,7 @@ p {
 footer{
     /*float: none;*/
     /*clear: both;*/
-    margin-top: 100px;
+    margin-top: 0;
     margin-bottom: 10px;
     background-color: #232120;
     color: #FFFFFF;
