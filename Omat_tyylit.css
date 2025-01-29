@@ -35,16 +35,22 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100%;
     color: #FFFFFF;
     display: flex;
-    position: static;
+    position: relative;
     margin: 0;
 }
 
 #yhteystiedot {
     background-image: url("Kuvat/yhteystiedot.png");
-    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    position: static;
+    margin: 0;
+    padding: 0;
 }
 
 /* header{
