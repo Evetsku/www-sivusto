@@ -42,6 +42,11 @@ body {
     margin: 0;
 }
 
+#yhteystiedot {
+    background-image: url("Kuvat/yhteystiedot.png");
+    
+}
+
 /* header{
     display: flex;
     flex-direction: column;
