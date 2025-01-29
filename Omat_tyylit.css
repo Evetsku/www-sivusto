@@ -30,6 +30,18 @@ body {
     margin: 0;
 }
 
+#meista{
+    background-image: url(Kuvat/Meista.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    color: #FFFFFF;
+    display: flex;
+    position: static;
+    margin: 0;
+}
+
 /* header{
     display: flex;
     flex-direction: column;
