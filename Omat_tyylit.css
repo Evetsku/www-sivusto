@@ -35,10 +35,20 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100%;
     color: #FFFFFF;
+    text-align: center;
     display: flex;
-    position: relative;
+    position: static;
     margin: 0;
+}
+
+.overlay {
+    background: rgba(47, 45, 43, 0.75);
+    padding: 40px;
+    border-radius: 0;
+    max-width: 773px;
+    margin-bottom: 30px;
 }
 
 #yhteystiedot {
