@@ -145,8 +145,9 @@ nav li a{
 .row.align-items-center {
     /* display: flex; */
     max-width: 100%;
-    padding-bottom: 0 ;
-    margin-bottom: 0 ;
+    padding-bottom: 0;
+    margin-bottom: 4px;
+    padding-left: 23px;
 }
 
 #Etusivu {
@@ -200,7 +201,7 @@ p {
 footer{
     /*float: none;*/
     /*clear: both;*/
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 10px;
     background-color: #232120;
     color: #FFFFFF;
