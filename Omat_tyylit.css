@@ -78,6 +78,7 @@ body {
     z-index: 1;
 }
 
+
 .logo{
     color: #FFFFFF;
     font-size: 50px;
@@ -208,6 +209,7 @@ p {
     color: #FFFFFF;
     text-align: left;
     font-size: 1.5em;
+    flex: 1;
 }
 
 .menu2{
@@ -218,12 +220,13 @@ p {
     color: #FFFFFF;
     text-align: left;
     font-size: 1.5em;
+    flex: 1;
 }
 
 footer{
-    /*float: none;*/
-    /*clear: both;*/
-    margin-top: 10px;
+    float: none;
+    clear: both;
+    margin-top: 50px;
     margin-bottom: 10px;
     background-color: #232120;
     color: #FFFFFF;
@@ -231,9 +234,11 @@ footer{
     text-align: center;
     font-size: 1.5em;
     font-family: Verdana, sans-serif;
-    position: relative;
+    /*position: relative;*/
     width: 100%;
     bottom: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 section{
