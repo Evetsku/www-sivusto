@@ -73,7 +73,7 @@ body {
 }
 
 #Etusivu {
-    margin-top: 170px;
+    margin-top: 20%;
 }
 
 /* header{
@@ -276,7 +276,7 @@ footer{
     color: #FFFFFF;
     font-family: verdana, sans-serif;
     text-align: center;
-    width: 870px;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
