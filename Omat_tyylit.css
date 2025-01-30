@@ -56,6 +56,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100%;
     display: flex;
     position: static;
     margin: 0;
@@ -179,7 +180,7 @@ nav li a{
     /* display: flex; */
     max-width: 100%;
     padding-bottom: 0;
-    margin-bottom: 4px;
+    margin-bottom: 0;
     padding-left: 23px;
 }
 
@@ -237,12 +238,12 @@ footer{
     float: none;
     clear: both;
     margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 0;
     background-color: #232120;
     color: #FFFFFF;
     padding: 40px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-family: Verdana, sans-serif;
     /*position: relative;*/
     width: 100%;
@@ -251,28 +252,39 @@ footer{
     flex-direction: column;
 }
 
-section{
-    
-}
-
 .menu {
     font-size: 1,5em;
 }
 
-.yhteystiedot-osio {
+#yhteystiedot-osio {
     padding: 40px;
-    background-color: rgba(47, 45, 43, 0.85);
+    margin: 40px auto;
+    background-color: rgba(47, 45, 43, 0.75);
     color: #FFFFFF;
-    
-    
+    font-family: verdana, sans-serif;
+    text-align: center;
+    width: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.yhteystiedot-osio h2 {
-    margin-bottom: 30px;
+#yhteystiedot-osio h2 {
+    text-align: center;
+    font-family: verdana, sans-serif;
+    padding-bottom: 20px;
 }
 
-.yhteystiedot-osio p {
-    margin-bottom: 10px;
+#yhteystiedot-osio .col-md-4 {
+    text-align: left !important;
+    padding: 40px;
+    font-size: larger;
+    line-height: 0.9;
 }
+
+#yhteystiedot-osio .row {
+    justify-content: space-between;
+}
+
 
 
